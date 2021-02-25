@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<!-- META -->
 	<meta charset="UTF-8">
@@ -12,74 +13,75 @@
 	<link rel="stylesheet" href="css/style.css" />
 
 	<!-- FAVICON -->
-	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" /> 
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
 </head>
+
 <body>
-	
+
 	<!-- CABEÇALHO -->
 	<header class="topo">
 		<figure>
 			<img src="img/logo.svg" alt="Netflix">
-			<figcaption>Netflix</figcaption>
+			<figcaption class="hidden">Netflix</figcaption>
 		</figure>
 	</header>
 
 	<!-- PÁGINA INICIAL -->
 	<div class="pg-home">
-		
+
 		<section>
 
 			<header>
-				<h2>Quem está assistindo?</h2>
+				<h2 class="pergunta_boasvindas">Quem está assistindo?</h2>
 			</header>
 
 			<!-- LISTA DE USUÁRIOS -->
-			<ul>
-				
+			<ul class="list_user">
+
 				<!-- USUÁRIO 1 -->
-				<li>
+				<li class="card_user">
 					<figure>
-						<img src="img/avatar.png" alt="Gabriel">
-						<figcaption>Gabriel</figcaption>
+						<img class="img_user" src="img/avatar.png" alt="Gabriel">
+						<figcaption class="hidden">Gabriel</figcaption>
 					</figure>
 
-					<h3>Gabriel</h3>
+					<h3 class="name_user">Gabriel</h3>
 				</li>
-				
+
 				<!-- USUÁRIO 2 -->
-				<li>
+				<li class="card_user">
 					<figure>
-						<img src="img/avatar1.png" alt="Maria">
-						<figcaption>Maria</figcaption>
+						<img class="img_user" src="img/avatar1.png" alt="Maria">
+						<figcaption class="hidden">Maria</figcaption>
 					</figure>
 
-					<h3>Maria</h3>
+					<h3 class="name_user">Maria</h3>
 				</li>
-				
+
 				<!-- USUÁRIO 3 -->
-				<li>
+				<li class="card_user">
 					<figure>
-						<img src="img/avatar2.png" alt="Renato">
-						<figcaption>Renato</figcaption>
+						<img class="img_user" src="img/avatar2.png" alt="Renato">
+						<figcaption class="hidden">Renato</figcaption>
 					</figure>
 
-					<h3>Renato</h3>
+					<h3 class="name_user">Renato</h3>
 				</li>
 
 				<!-- ADICIONAR PERFIL-->
-				<li class="addPerfil">
+				<li class=" card_user addPerfil">
 					<figure>
-						<img src="img/plus-sign.png" alt="Adicionar perfil">
-						<figcaption>Adicionar perfil</figcaption>
+						<img class="img_user" src="img/plus-sign.png" alt="Adicionar perfil">
+						<figcaption class="hidden">Adicionar perfil</figcaption>
 					</figure>
 
-					<h3>Adicionar perfil</h3>
+					<h3 class="name_user">Adicionar perfil</h3>
 				</li>
 
 			</ul>
 
 			<footer>
-				<button>Gerenciar Perfis</button>
+				<button class="btn_gerenciarperfis">Gerenciar Perfis</button>
 			</footer>
 
 		</section>
@@ -87,4 +89,5 @@
 	</div>
 
 </body>
+
 </html>
