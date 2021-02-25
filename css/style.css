@@ -14,17 +14,154 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 **** PÁGINA INICIAL
 */
 
+
+/* 
+1-Utilizou conceitos de flexbox 
+para posicionar cada caixa de usuário.
+
+2- Aplicou fonte : 'Helvetica Neue',Helvetica,
+Arial,sans-serif;
+
+3- Utilizou 186px de largura para cada box 
+de usuário *OK*
+
+4- 858px de largura para o box que envolve 
+todos os usuários
+*/
+
+/* RESET */
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+ul,
+li,
+figcaption,
+figure,
+footer,
+header,
+section {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
 /* VARIÁVEIS */
-:root {}
+:root {
+    --font-padrão: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --color-fundo: #141414;
+    --color-primaria: grey;
+    --color-secundaria: #FFF;
+}
 
 /*BODY*/
-body {}
+body {
+    font-family: var(--font-padrão);
+    background-color: var(--color-fundo);
+    height: 100vh;
+}
+
 
 /*TOPO*/
-header.topo {}
+header.topo {
+    height: 5vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header.topo img {
+    width: 100px;
+    margin: 1.5rem 0 0 2.5rem;
+}
 
 /*RODAPÉ*/
 
 
 /*PÁGINA INICIAL*/
-div.pg-home {}
+h2.pergunta_boasvindas {
+    color: var(--color-secundaria);
+    font-size: 4rem;
+}
+
+h3.name_user {
+    font-size: 1.5rem;
+    /* color: grey; */
+}
+
+div.pg-home {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.pg-home section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul.list_user {
+    display: flex;
+    width: 858px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+li.card_user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    color: var(--color-primaria);
+}
+
+li.card_user:hover {
+    cursor: pointer;
+    color: var(--color-secundaria);
+}
+
+img.img_user {
+    width: 186px;
+    box-sizing: border-box;
+    margin: 2rem 0 1rem 0;
+    border: solid 0.3rem transparent;
+    border-radius: 10px;
+}
+
+img.img_user:hover {
+    border: solid 0.3rem var(--color-secundaria);
+}
+
+figcaption.hidden {
+    display: none;
+}
+
+button.btn_gerenciarperfis {
+    margin-top: 2rem;
+    background-color: transparent;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border: 0.1rem solid var(--color-primaria);
+    color: var(--color-primaria);
+    cursor: pointer;
+    padding: 1rem 2rem;
+    letter-spacing: 0.15rem;
+    font-size: 1.3rem;
+}
+
+button.btn_gerenciarperfis:hover {
+    color: var(--color-secundaria);
+    border: solid 0.1rem var(--color-secundaria);
+}
