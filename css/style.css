@@ -14,6 +14,21 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 **** PÁGINA INICIAL
 */
 
+
+/* 
+1-Utilizou conceitos de flexbox 
+para posicionar cada caixa de usuário.
+
+2- Aplicou fonte : 'Helvetica Neue',Helvetica,
+Arial,sans-serif;
+
+3- Utilizou 186px de largura para cada box 
+de usuário
+
+4- 858px de largura para o box que envolve 
+todos os usuários
+*/
+
 /* VARIÁVEIS */
 :root {}
 
