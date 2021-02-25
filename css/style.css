@@ -15,25 +15,16 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 */
 
 /* VARIÁVEIS */
-:root{
-  
-}
+:root {}
 
 /*BODY*/
-	body{
-
-	}
+body {}
 
 /*TOPO*/
-	header.topo{
-		
-	}
+header.topo {}
 
 /*RODAPÉ*/
-	
+
 
 /*PÁGINA INICIAL*/
-	div.pg-home{
-		
-	}
-
+div.pg-home {}
