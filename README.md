@@ -1,4 +1,4 @@
-# streaming-platform-layout
+# Streaming Platform Layout
 
 ## Descrição do Projeto
 
