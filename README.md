@@ -2,8 +2,10 @@
 
 ## Descrição do Projeto
 
+https://kenzie.com.br/
+
 <p align="center">
-Este projeto foi uma atividade realizada no curso da Kenzie Academy, na qual deveríamos reproduzir a tela de escolha de usuários da Netflix
+Este projeto foi uma atividade realizada no curso da <a href="https://streaming-platform-layout.netlify.app/">Kenzie Academy</a>, na qual deveríamos reproduzir a tela de escolha de usuários da Netflix
 </p>
 
 <a href="https://streaming-platform-layout.netlify.app/">Link da aplicação</a>
