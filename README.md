@@ -2,8 +2,6 @@
 
 ## Descrição do Projeto
 
-https://kenzie.com.br/
-
 <p align="center">
 Este projeto foi uma atividade realizada no curso da <a href="https://kenzie.com.br/">Kenzie Academy</a>, na qual deveríamos reproduzir a tela de escolha de usuários da Netflix
 </p>
